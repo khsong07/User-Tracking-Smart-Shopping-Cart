@@ -1,4 +1,5 @@
 # UWB-Based User Tracking Smart Shopping Cart
+<img src="./assets/cart img.jpg" width="400">
 
 ## Overview
 This project combines **Ultra-Wideband (UWB)** technology, barcode recognition, weight sensors, and both **OLED/LCD** to track a user indoors and provide a more personalized and efficient shopping experience. By accurately determining user position and integrating various sensors, the system can autonomously follow the user carrying the user-held device while automatically avoiding obstacles and walls.
@@ -47,3 +48,6 @@ Below are the Korean flowcharts for this project.
 
 ## Conclusion
 By integrating UWB location tracking, sensor fusion (barcode and weight data), and dynamic display control, this system creates an interactive environment that adapts to users in real time. Its modular design allows it to be extended for diverse use cases, such as retail kiosks, smart shelves, and other IoT-driven interactive systems.
+
+## Demo
+<img src="./assets/demo.gif">
