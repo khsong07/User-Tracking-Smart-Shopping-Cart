@@ -9,6 +9,7 @@ This project combines **Ultra-Wideband (UWB)** technology, barcode recognition, 
    - Uses Time of Flight (ToF) methods (e.g., Two-Way Ranging, TWR) to measure distances between anchors and tags.  
    - Initially implemented trilateration, but due to significant errors, adopted a new "region determination" method. This approach compares the three distance measurements to classify the tag location into one of six predefined regions.
    - Supports dynamic or moving tags and adaptively updates positions in real time.
+     <br>
      <img src="./assets/sector.png" width="400">
      <img src="./assets/simulation.png" width="400">
 
@@ -18,6 +19,7 @@ This project combines **Ultra-Wideband (UWB)** technology, barcode recognition, 
    - Early approach caused alignment errors due to communication delays (UWB-Arduino-RF).
    - Improved by applying predefined motor rotation angles based on Tag zones, ensuring accurate alignment to zone a1.
    - RF communication instability at greater distances was resolved by initiating immediate forward motion upon alignment.
+     <br>
      <img src="./assets/positioning.png" width="600">
 
 3. **Obstacle Detection and Avoidance**
@@ -25,6 +27,7 @@ This project combines **Ultra-Wideband (UWB)** technology, barcode recognition, 
    - When an obstacle is detected during motor operation, the system immediately interrupts, stops, and avoid obstacle.
    - Specific avoidance actions are triggered based on sensor readings falling below predefined thresholds.
    - Initially evaluates obstacles using two front sensors; if both sensors detect equal distances, additional comparison of 45° sensors determines avoidance direction.
+     <br>
      <img src="./assets/obstacle.png" width="600">
    
 4. **Barcode & Weight Sensor Integration**  
@@ -37,9 +40,12 @@ This project combines **Ultra-Wideband (UWB)** technology, barcode recognition, 
 
 ## Flow charts
 Below are the Korean flowcharts for this project.
-<img src="./assets/flow chart 1.png" width="400">
-<img src="./assets/flowchart2.png" width="400">
-<img src="./assets/flowchart3.png" width="400">
+<br>
+<img src="./assets/flow chart 1.png" width="500">
+<br>
+<img src="./assets/flowchart2.png" width="500">
+<br>
+<img src="./assets/flowchart3.png" width="500">
 
 ## Advantages
 - **High Accuracy**: Employs UWB for reliable short-range positioning with minimal interference. 
