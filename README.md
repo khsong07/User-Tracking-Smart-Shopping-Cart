@@ -27,23 +27,7 @@ This project combines **Ultra-Wideband (UWB)** technology, barcode recognition, 
    - The user-held device functions as both a UWB tag and a barcode reader.
    - Scanned barcode data (item name and price) is displayed on the LCD screen, with an option to cancel via a dedicated cancel button.
    - Weight sensors detect weight changes upon barcode scanning to prevent theft or unauthorized item removal.
-
-## System Flow
-1. **Data Acquisition**  
-   - UWB anchors measure distance to the user’s tag.  
-   - Barcode scanner collects item codes, and weight sensor relays weight changes.
-
-2. **Data Processing**  
-   - Trilateration algorithm calculates user position.  
-   - Controller checks barcode/weight data and correlates them with stored product or usage information.
-
-3. **Motor/Display Control**  
-   - Motor driver adjusts device orientation based on user’s location.  
-   - OLED/LCD displays content relevant to the detected product or user context.
-
-4. **Feedback Loop**  
-   - Continuously refines positioning and device alignment in real time.  
-   - Updates visuals or prompts based on new sensor inputs.
+   - The onboard OLED display visually informs users about their current status or situation.
 
 ## Advantages
 - **High Accuracy**: Employs UWB for reliable short-range positioning with minimal interference. 
